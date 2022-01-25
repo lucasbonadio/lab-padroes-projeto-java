@@ -7,4 +7,10 @@ public class ComportamentoAgressivo implements Comportamento {
 		System.out.println("Movendo-se agressivamente...");
 	}
 
+	@Override
+	public void pular() {
+		System.out.println("Pulando 3 metros");
+		
+	}
+
 }

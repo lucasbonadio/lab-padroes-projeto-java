@@ -11,4 +11,8 @@ public class Robo {
 	public void mover() {
 		comportamento.mover();
 	}
+	
+	public void pular() {
+		comportamento.pular();
+	}
 }

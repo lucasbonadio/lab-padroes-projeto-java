@@ -41,9 +41,12 @@ public class Test {
 		robo.setComportamento(normal);
 		robo.mover();
 		robo.mover();
+		robo.pular();
 		robo.setComportamento(defensivo);
 		robo.mover();
+		robo.pular();
 		robo.setComportamento(agressivo);
+		robo.pular();
 		robo.mover();
 		robo.mover();
 		robo.mover();

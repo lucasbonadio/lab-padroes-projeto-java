@@ -7,4 +7,10 @@ public class ComportamentoNormal implements Comportamento {
 		System.out.println("Movendo-se normalmente...");
 	}
 
+	@Override
+	public void pular() {
+		System.out.println("Pulando 2 metros");
+		
+	}
+
 }
